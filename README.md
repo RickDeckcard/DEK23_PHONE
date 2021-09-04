@@ -32,6 +32,28 @@ FUNCIONAMIENTO
 --------------
 Al iniciar el script únicamente debe introducir un número de teléfono. En el formato que se pide (ejemplo para España: +3496XXXXXXX si fuera un fijo o +346XXXXXXXX si es móvil).
 
+He aquí un ejemplo del teléfono +15108675309: 
+Fuente: https://www.twilio.com/blog/2016/02/how-to-verify-phone-numbers-in-python-with-the-twilio-lookup-api.html
+
+
+                  ********************
+                       DEK23 PHONE
+                  ********************
+
+                Suigueme en Twitter: @rickdeckard23
+                Mi web: deckcard23.com
+
+Introduce tu número de teléfono (ejemplo. +34666445533): +15108675309
+Datos generales: {'mobile_country_code': '311', 'mobile_network_code': '880', 'name': 'Sprint Spectrum, L.P.', 'type': 'mobile', 'error_code': None}
+Sprint Spectrum, L.P.
+Chequeo del telefono: (510) 867-5309
+El teléfono es válido:True
+La línea es del tipo:  mobile
+(landline=fija   mobile=móvil   VOIP=Voz por datos)
+Datos sobre spam: {'status': 'successful', 'message': None, 'code': None, 'results': {'nomorobo_spamscore': {'status': 'successful', 'request_sid': 'XRd9470d9d5c08666645922307e74be6df', 'message': None, 'code': None, 'result': {'status': 'success', 'message': 'success', 'score': 0, 'neighbor_score': 0}}}}
+Datos sobre linea robot:False
+
+
 AGRADECIMIENTOS
 ---------------
 Este script ha sido posible realizarlo gracias a los post publicados en el blog de esta maravillosa herramienta que permite una infinidad de servicios. Recomiendo a los interesados visitar https://www.twilio.com/blog/tag/python donde podrá encontrar desarrollos muy interesantes relacionados con whatsapp, envio de mensajes de texto o multimedia, gestión de llamadas, machine learning con imagenes, etc.
