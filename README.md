@@ -30,7 +30,7 @@ Para que funcione la opción de spam y robot necesita acceder a su cuenta de TWI
 
 FUNCIONAMIENTO
 --------------
-Al iniciar el script únicamente debe introducir un número de teléfono. En el formato que se pide (ejemplo para España: +34966666666 si fuera un fijo o +34666666666 si es móvil).
+Al iniciar el script únicamente debe introducir un número de teléfono. En el formato que se pide (ejemplo para España: +3496XXXXXXX si fuera un fijo o +346XXXXXXXX si es móvil).
 
 AGRADECIMIENTOS
 ---------------
